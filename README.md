@@ -14,7 +14,7 @@ sudo add-apt-repository ppa:graphics-drivers/ppa
 # please check the support plan for your GPU – nvidia-driver-{390,396,410,415,418,430,435,440} available so your display server doesn't fail!
 # we will use 440.26 
 # maybe you need the 32-bit versions of some libraries add ":i386" to the package name (i.e.: libnvidia-gl-430:i386)
-sudo apt install nvidia-driver-495 xserver-xorg-video-nvidia-495 nvidia-utils-495 nvidia-kernel-source-495 nvidia-kernel-common-495 nvidia-dkms-495 nvidia-compute-utils-495 libnvidia-gl-495 libnvidia-fbc1-495 libnvidia-encode-495 libnvidia-decode-495 libnvidia-cfg1-495 libnvidia-compute-495
+sudo apt install nvidia-driver-510 xserver-xorg-video-nvidia-510 nvidia-utils-510 nvidia-kernel-source-510 nvidia-kernel-common-510 nvidia-dkms-510 nvidia-compute-utils-510 libnvidia-gl-510 libnvidia-fbc1-510 libnvidia-encode-510 libnvidia-decode-510 libnvidia-cfg1-510 libnvidia-compute-510
 ```
 
 ### 1. Install the nv-codec-headers package:
